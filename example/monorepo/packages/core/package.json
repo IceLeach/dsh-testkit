@@ -1,0 +1,10 @@
+{
+  "name": "dsh-example-core",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "monorepo 示例的共享包：只提供函数，不注册工具。",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  }
+}

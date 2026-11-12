@@ -1,0 +1,16 @@
+{
+  "name": "dsh-example-hello",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "testkit 示例插件：一个独立、带 npm 依赖的简单插件。",
+  "main": "./src/index.js",
+  "files": ["src", "cordis.patch.yml", "locale/*.json", "icon.svg"],
+  "dependencies": {
+    "ms": "^2.1.3"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

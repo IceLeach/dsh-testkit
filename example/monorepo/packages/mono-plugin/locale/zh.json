@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "示例 monorepo 插件",
+    "description": "testkit 示例：monorepo 结构里的插件，依赖共享包。"
+  }
+}

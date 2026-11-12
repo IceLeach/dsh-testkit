@@ -1,0 +1,16 @@
+{
+  "name": "dsh-example-mono",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "testkit 示例：monorepo 结构里的插件，依赖共享包。",
+  "main": "./src/index.js",
+  "files": ["src", "cordis.patch.yml", "locale/*.json", "icon.svg"],
+  "dependencies": {
+    "dsh-example-core": "workspace:*"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

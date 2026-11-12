@@ -1,0 +1,9 @@
+{
+  "name": "example-mono",
+  "prompt": "调用 mono_hello 工具，并原样告诉我它返回了什么。",
+  "expect": {
+    "finalTextContains": "hello from example monorepo",
+    "tools": ["mono_hello"],
+    "noError": true
+  }
+}

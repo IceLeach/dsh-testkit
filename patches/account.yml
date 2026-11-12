@@ -1,0 +1,13 @@
+# 让 headless 复用桌面版账号登录态
+# 1) 打开 headless 默认关闭的 credentials / authorization / deepseek-account
+# 2) 把默认模型路由从 API-key 的 deepseek-official 切到账号路由 deepseek-account
+- id: credentials
+  disabled: false
+- id: authorization
+  disabled: false
+- id: deepseek-account
+  disabled: false
+- id: agent-default-model
+  config:
+    provider: deepseek-account
+    model: deepseek-flash

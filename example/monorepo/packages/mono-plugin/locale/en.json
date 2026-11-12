@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Example monorepo plugin",
+    "description": "A testkit example plugin inside a monorepo, depending on a shared package."
+  }
+}

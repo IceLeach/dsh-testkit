@@ -1,0 +1,9 @@
+{
+  "name": "example-hello",
+  "prompt": "调用 hello 工具，参数 delay 设为 2000，并原样告诉我它返回了什么。",
+  "expect": {
+    "finalTextContains": "hello from example plugin",
+    "tools": ["hello"],
+    "noError": true
+  }
+}

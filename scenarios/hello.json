@@ -1,0 +1,9 @@
+{
+  "name": "hello",
+  "prompt": "请调用 whale_hello 工具，并原样告诉我它返回的内容。",
+  "expect": {
+    "finalTextContains": "hello from dsh-whale-hello",
+    "tools": ["whale_hello"],
+    "noError": true
+  }
+}

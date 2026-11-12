@@ -1,0 +1,4 @@
+# 把示例插件插进 profile
+- insert:
+    - id: dsh-example-mono
+      name: dsh-example-mono

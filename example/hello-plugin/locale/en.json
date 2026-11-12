@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Example hello plugin",
+    "description": "A standalone testkit example plugin with one npm dependency."
+  }
+}

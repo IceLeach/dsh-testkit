@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "示例 hello 插件",
+    "description": "testkit 的独立示例插件，带一个 npm 依赖。"
+  }
+}

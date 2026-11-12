@@ -1,0 +1,8 @@
+# 隔离 home：含登录态副本与 session，绝不提交
+home/
+# 运行输出
+runs/
+# 示例插件的依赖与安装产物
+example/hello-plugin/node_modules/
+# npm 缓存（指到工作区，避免写用户目录）
+.npm-cache/
